@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আল-ফাতিহা | Al-Fatiha</title>
+    <!-------------------- 
+        Font Awesome 
+    ---------------------->
+    <script src="https://kit.fontawesome.com/89d7c52978.js" crossorigin="anonymous"></script>
+    <!--------------------
+        Style Sheets
+    --------------------->
+    <link rel="stylesheet" href="/styles/styles/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+
+</head>
+
+<body>
+    <header class="heading-section">
+        <a href="../index.html"><i class="fas fa-house-user"></i></a>
+        <h1 class="surah-details">সূরাঃ ১/ আল-ফাতিহা | Al-Fatiha | سورة الفاتحة আয়াতঃ ৭ মাক্কী</h1>
+        <select name="" id="surah-list" onchange="location = this.value;">
+            <option value="">সূরা নির্বাচন করুন | Select Surah</option>
+            <option value="surah-al-fatiha.html" selected>1. আল-ফাতিহা | Al-Fatiha</option>
+            <option value="surah-al-baqara.html">2. আল-বাকারা | Al-Baqara</option>
+            <option value="surah-al-i-imran.html">3. আলে-ইমরান | Al-i-Imran</option>
+            <option value="surah-an-nisa.html">4. আন-নিসা | An-Nisa</option>
+            <option value="surah-al-maida.html">5. আল-মায়েদা | Al-Ma'ida</option>
+            <option value="surah-al-anam.html">6. আল-আন'আম | Al-An'am</option>
+            <option value="surah-araf.html">7. আল-আ'রাফ | Al-A'raf</option>
+            <option value="surah-al-anfal.html">8. আল-আনফাল | Al-Anfal</option>
+            <option value="surah-at-tawba.html">9. আত-তাওবা | At-Tawba</option>
+            <option value="surah-yunus.html">10. ইউনুস | Yunus</option>
+            <option value="surah-hud.html">11. হূদ | Hud</option>
+            <option value="surah-yusuf.html">12. ইউসুফ | Yusuf</option>
+            <option value="surah-ar-rad.html">13. আর-রাদ | Ar-Ra'd </option>
+            <option value="surah-ibrahim.html">14. ইবরাহীম | Ibrahim</option>
+            <option value="surah-al-hijr.html">15. আল-হিজর | Al-Hijr</option>
+            <option value="surah-an-nahl.html">16. আন-নাহাল | An-Nahl</option>
+            <option value="surah-al-isra.html">17. আল-ইসরা (বনী-ইসরাঈল) | Al-Isra</option>
+            <option value="surah-al-kahf.html">18. আল-কাহফ | Al-Kahf</option>
+            <option value="surah-maryam.html">19. মারইয়াম | Maryam</option>
+            <option value="surah-ta-ha.html">20. ত্ব-হা | Ta-Ha</option>
+            <option value="surah-al-ambiya.html">21. আল-আম্বিয়া | Al-Anbiya</option>
+            <option value="surah-al-hajj.html">22. আল-হজ্জ | Al-Hajj</option>
+            <option value="surah-al-muminun.html">23. আল-মুমিনুন | Al-Mu'minun</option>
+            <option value="surah-an-nur.html">24. আন-নূর | An-Nur</option>
+            <option value="surah-al-furqan.html">25. আল-ফুরকান | Al-Furqan</option>
+            <option value="surah-ash-shuara.html">26. আশ-শুআ'রা | Ash-Shu'ara</option>
+            <option value="surah-an-naml.html">27. আন-নামাল | An-Naml</option>
+            <option value="surah-al-qasas.html">28. আল-কাসাস | Al-Qasas</option>
+            <option value="surah-al-ankabut.html">29. আল-আনকাবূত | Al-Ankabut</option>
+            <option value="surah-ar-rum.html">30. আর-রুম | Ar-Rum</option>
+            <option value="surah-lukman.html">31. লুকমান | Luqman</option>
+            <option value="surah-as-sajda.html">32. আস-সাজদাহ | As-Sajda</option>
+            <option value="surah-al-ahzab.html">33. আল-আহযাব | Al-Ahzab</option>
+            <option value="surah-saba.html">34. সাবা | Saba</option>
+            <option value="surah-fatir.html">35. ফাতির | Fatir</option>
+            <option value="surah-yasin.html">36. ইয়াসীন | Ya-Sin</option>
+            <option value="surah-as-saffat.html">37. আস-সাফফাত | As-Saffat</option>
+            <option value="surah-sad.html">38. সোয়াদ | Sad</option>
+            <option value="surah-az-zumar.html">39. আয-যুমার | Az-Zumar</option>
+            <option value="surah-gafir.html">40. গাফির (আল মু'মিন) | Ghafir</option>
+            <option value="surah-fussilat.html">41. হা-মীম আস-সাজদা (ফুসসিলাত) | Fussilat</option>
+            <option value="surah-ash-shura.html">42. আশ-শূরা | Ash-Shura</option>
+            <option value="surah-az-zukhruf.html">43. আয-যুখরুফ | Az-Zukhruf</option>
+            <option value="surah-ad-dukhan.html">44. আদ-দুখান | Ad-Dukhan</option>
+            <option value="surah-al-jathiya.html">45. আল-জাসিয়া | Al-Jathiya</option>
+            <option value="surah-al-ahqaf.html">46. আল-আহকাফ | Al-Ahqaf</option>
+            <option value="surah-muhammad.html">47. মুহাম্মাদ | Muhammad</option>
+            <option value="surah-al-fath.html">48. আল-ফাতহ | Al-Fath</option>
+            <option value="surah-al-hujurat.html">49. আল-হুজুরাত | Al-Hujurat</option>
+            <option value="surah-qaf.html">50. কাফ | Qaf</option>
+            <option value="surah-adh-dhariyat.html">51. আয-যারিয়াত | Adh-Dhariyat</option>
+            <option value="surah-at-tur.html">52. আত-তূর | At-Tur</option>
+            <option value="surah-an-najm.html">53. আন-নাজম | An-Najm</option>
+            <option value="surah-al-qamar.html">54. আল-কামার | Al-Qamar</option>
+            <option value="surah-ar-rahman.html">55. আর-রাহমান | Ar-Rahman</option>
+            <option value="surah-al-waqia.html">56. আল-ওয়াকিয়া | Al-Waqi'a</option>
+            <option value="surah-al-hadid.html">57. আল-হাদীদ | Al-Hadid</option>
+            <option value="surah-al-mujadila.html">58. আল-মুজাদালা | Al-Mujadila</option>
+            <option value="surah-al-hashr.html">59. আল-হাশর | Al-Hashr</option>
+            <option value="surah-al-mumtahina.html">60. আল-মুমতাহিনা | Al-Mumtahina</option>
+            <option value="surah-as-saff.html">61. আস-সফ | As-Saff</option>
+            <option value="surah-al-jumua.html">62. আল-জুমু'আ | Al-Jumu'a</option>
+            <option value="surah-al-munafiqun.html">63. আল-মুনাফিকূন | Al-Munafiqun</option>
+            <option value="surah-at-taghabun.html">64. আত-তাগাবুন | At-Taghabun</option>
+            <option value="surah-at-talaq.html">65. আত-ত্বলাক্ব | At-Talaq</option>
+            <option value="surah-at-tahrim.html">66. আত-তাহরীম | At-Tahrim</option>
+            <option value="surah-al-mulk.html">67. আল-মুলক | Al-Mulk</option>
+            <option value="surah-al-qalam.html">68. আল-কলম | Al-Qalam</option>
+            <option value="surah-al-haqqa.html">69. আল-হাক্কাহ | Al-Haqqa</option>
+            <option value="surah-al-maarij.html">70. আল-মা'আরিজ | Al-Ma'arij</option>
+            <option value="surah-nuh.html">71. নূহ | Nuh</option>
+            <option value="surah-al-jinn.html">72. আল-জ্বিন | Al-Jinn</option>
+            <option value="surah-al-muzzammil.html">73. আল-মুযযাম্মিল | Al-Muzzammil</option>
+            <option value="surah-al-muddathir.html">74. আল-মুদ্দাসসির | Al-Muddathir</option>
+            <option value="surah-al-qiyama.html">75. আল-ক্বিয়ামাহ | Al-Qiyama</option>
+            <option value="surah-insan.html">76. আল-ইনসান (আদ-দাহর) | Al-Insan</option>
+            <option value="surah-al-mursalat.html">77. আল-মুরসালাত | Al-Mursalat</option>
+            <option value="surah-an-naba.html">78. আন-নাবা | An-Naba'</option>
+            <option value="surah-an-naziat.html">79. আন-নাযি'আত | An-Nazi'at</option>
+            <option value="surah-al-abasa.html">80. আবাসা | Abasa</option>
+            <option value="surah-at-takwir.html">81. আত-তাকভীর | At-Takwir</option>
+            <option value="surah-al-infitar.html">82. আল-ইনফিতার | Al-Infitar</option>
+            <option value="surah-al-mutaffifin.html">83. আল-মুতাফফিফীন | Al-Mutaffifin</option>
+            <option value="surah-al-inshiqaq.html">84. আল-ইনশিকাক | Al-Inshiqaq</option>
+            <option value="surah-al-buruj.html">85. আল-বুরুজ | Al-Buruj</option>
+            <option value="surah-at-tariq.html">86. আত-তারিক | At-Tariq</option>
+            <option value="surah-al-ala.html">87. আল-আ'লা | Al-A'la</option>
+            <option value="surah-al-ghashiya.html">88. আল-গাশিয়া | Al-Ghashiya</option>
+            <option value="surah-al-fajr.html">89. আল-ফাজর | Al-Fajr</option>
+            <option value="surah-al-balad.html">90. আল-বালাদ | Al-Balad</option>
+            <option value="surah-ash-shams.html">91. আশ-শামস | Ash-Shams</option>
+            <option value="surah-al-lail.html">92. আল-লাইল | Al-Lail</option>
+            <option value="surah-ad-dhuha.html">93. আদ-দুহা | Ad-Dhuha</option>
+            <option value="surah-sharh.html">94. আল-ইনশিরাহ | Ash-Sharh</option>
+            <option value="surah-at-tin.html">95. আত-ত্বীন | At-Tin</option>
+            <option value="surah-al-alaq.html">96. আল-আলাক | Al-Alaq</option>
+            <option value="surah-al-qadr.html">97. আল-কাদর | Al-Qadr</option>
+            <option value="surah-al-bayyinah.html">98. আল-বায়্যিনাহ | Al-Bayyinah</option>
+            <option value="surah-az-zalzala.html">99. আয-যিলযাল | Az-Zalzala</option>
+            <option value="surah-al-adiyat.html">100. আল-আদিয়াত | Al-Adiyat</option>
+            <option value="surah-al-qaria.html">101. আল-কারি'আ | Al-Qari'a</option>
+            <option value="surah-at-takathur.html">102. আত-তাকাসুর | At-Takathur</option>
+            <option value="surah-al-asr.html">103. আল-আসর | Al-Asr</option>
+            <option value="surah-al-humaza.html">104. আল-হুমাযা | Al-Humaza</option>
+            <option value="surah-al-fil.html">105. আল-ফীল | Al-Fil</option>
+            <option value="surah-al-quraysh.html">106. আল-কুরাইশ | Quraysh</option>
+            <option value="surah-al-maun.html">107. আল-মাঊন | Al-Ma'un</option>
+            <option value="surah-al-kawthar.html">108. আল-কাউসার | Al-Kawthar</option>
+            <option value="surah-kafirun.html">109. কাফিরুন | Al-Kafirun</option>
+            <option value="surah-an-nasr.html">110. আন-নাসর | An-Nasr</option>
+            <option value="surah-al-masad.html">111. আল-মাসাদ (লাহাব) | Al-Masad</option>
+            <option value="surah-al-ikhlas.html">112. আল-ইখলাস | Al-Ikhlas</option>
+            <option value="surah-al-falaq.html">113. আল-ফালাক | Al-Falaq</option>
+            <option value="surah-an-nas.html">114. আন-নাস | An-Nas</option>
+        </select>
+    </header>
+
+    <main>
+        <section class="verse-section">
+            <section>
+                <bdo dir="rtl"><span class="verse-number">১ঃ১</span></bdo>
+                <span class="verse"> بِسۡمِ اللّٰهِ الرَّحۡمٰنِ الرَّحِیۡمِ </span>
+                <bdo dir="rtl" class="verse-end">o</bdo>
+            </section>
+
+            <footer class="translation-section">
+                <p class="translate-bangla">পরম করুণাময় অতি দয়ালু আল্লাহর নামে।</p>
+                <p class="translate-english">In the name of Allah, the Entirely Merciful, the Especially Merciful.
+                </p>
+            </footer>
+
+        </section>
+
+        <!-- section.verse-section>(section>(bdo:r>span.verse-number{১ঃ$@2})+span.verse+bdo:r.verse-end{o})+footer.translation-section>p.translate-bangla+p.translate-english -->
+        <section class="verse-section">
+            <section>
+                <bdo dir="rtl"><span class="verse-number">১ঃ২</span></bdo>
+                <span class="verse">اَلۡحَمۡدُ لِلّٰهِ رَبِّ الۡعٰلَمِیۡنَ ۙ</span><bdo dir="rtl"
+                    class="verse-end">o</bdo>
+            </section>
+            <footer class="translation-section">
+                <p class="translate-bangla">সমস্ত প্রশংসা আল্লাহর জন্য, যিনি সৃষ্টিকুলের রব। </p>
+                <p class="translate-english">[All] praise is [due] to Allah, Lord of the worlds</p>
+
+
+            </footer>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Accordion Item #1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                            the collapse
+                            plugin adds the appropriate classes that we use to style each element. These classes
+                            control the
+                            overall appearance, as well as the showing and hiding via CSS transitions. You can
+                            modify any of
+                            this with custom CSS or overriding our default variables. It's also worth noting that
+                            just about any
+                            HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                            overflow.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Accordion Item #2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                            until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions.
+                            You can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth
+                            noting that
+                            just about any HTML can go within the <code>.accordion-body</code>, though the
+                            transition does limit
+                            overflow.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                            the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes
+                            control the overall appearance, as well as the showing and hiding via CSS transitions.
+                            You can
+                            modify any of this with custom CSS or overriding our default variables. It's also worth
+                            noting that
+                            just about any HTML can go within the <code>.accordion-body</code>, though the
+                            transition does limit
+                            overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="verse-section">
+            <section><bdo dir="rtl"><span class="verse-number">১ঃ৩</span></bdo><span class="verse"> الرَّحۡمٰنِ
+                    الرَّحِیۡمِ ۙ</span><bdo dir="rtl" class="verse-end">o</bdo></section>
+            <footer class="translation-section">
+                <p class="translate-bangla">দয়াময়, পরম দয়ালু, পরম করুণাময়, অতি দয়ালু। </p>
+                <p class="translate-english">The Entirely Merciful, the Especially Merciful.</p>
+            </footer>
+        </section>
+
+        <section class="verse-section">
+            <section><bdo dir="rtl"><span class="verse-number">১ঃ৪</span></bdo><span class="verse"> مٰلِکِ یَوۡمِ
+                    الدِّیۡنِ ؕ</span><bdo dir="rtl" class="verse-end">o</bdo></section>
+            <footer class="translation-section">
+                <p class="translate-bangla">বিচার দিবসের মালিক। </p>
+                <p class="translate-english">Sovereign of the Day of Recompense.</p>
+            </footer>
+        </section>
+
+        <section class="verse-section">
+            <section><bdo dir="rtl"><span class="verse-number">১ঃ৫</span></bdo><span class="verse"> اِیَّاکَ نَعۡبُدُ وَ
+                    اِیَّاکَ نَسۡتَعِیۡنُ ؕ</span><bdo dir="rtl" class="verse-end">o</bdo></section>
+            <footer class="translation-section">
+                <p class="translate-bangla">আপনারই আমরা ইবাদাত করি এবং আপনারই নিকট আমরা সাহায্য চাই।</p>
+                <p class="translate-english">It is You we worship and You we ask for help.</p>
+            </footer>
+        </section>
+        <section class="verse-section">
+            <section><bdo dir="rtl"><span class="verse-number">১ঃ৬</span></bdo><span class="verse"> اِهۡدِ نَا
+                    الصِّرَاطَ الۡمُسۡتَقِیۡمَ ۙ</span><bdo dir="rtl" class="verse-end">o</bdo></section>
+            <footer class="translation-section">
+                <p class="translate-bangla">আমাদেরকে সরল পথ দেখান। পথের হিদায়াত দিন।</p>
+                <p class="translate-english">Guide us to the straight path</p>
+            </footer>
+        </section>
+        <section class="verse-section">
+            <section><bdo dir="rtl"><span class="verse-number">১ঃ৭</span></bdo><span class="verse">صِرَاطَ الَّذِیۡنَ
+                    اَنۡعَمۡتَ عَلَیۡهِمۡ ۬ۙ غَیۡرِ الۡمَغۡضُوۡبِ عَلَیۡهِمۡ وَ لَا الضَّآلِّیۡنَ </span><bdo dir="rtl"
+                    class="verse-end">o</bdo></section>
+            <footer class="translation-section">
+                <p class="translate-bangla">তাদের পথ, যাদের উপর আপনি অনুগ্রহ করেছেন। যাদেরকে নিয়ামত দিয়েছেন। যাদের উপর
+                    (আপনার) ক্রোধ আপতিত হয়নি এবং যারা পথভ্রষ্টও নয়।</p>
+                <p class="translate-english">The path of those upon whom You have bestowed favor, not of those who have
+                    evoked [Your] anger or of those who are astray.</p>
+            </footer>
+        </section>
+    </main>
+
+    <script src="/styles/styles/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

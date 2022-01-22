@@ -1,0 +1,105 @@
+/*-------------
+ Importing Fonts
+--------------- */
+@import url(styles/font-noorehuda.css);
+@import url(styles/font-nirmala-ui.css);
+body{
+    /* background-color: rgb(132, 147, 151); */
+    margin-top: 8%;
+    margin-bottom: 3%;
+    background-image: url(surah-list/alexandre-wavrant-aQdn88GEZfw-unsplash.jpg);
+    background-attachment: fixed;
+    font-family: Nirmala UI, noorehuda;
+}
+.heading-section{
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1% 20% 65%;
+    background-color: rgb(31, 31, 31);
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.heading-section a{
+    color: rgb(139, 139, 139);
+    font-size: 20px;
+}
+#surah-list{
+    border-radius: 8px;
+    height: 30px;
+    padding-left: 5px;
+    background-color: rgb(54, 54, 54);
+    color: rgb(202, 202, 202);
+    justify-content: right;
+    font-size: 15px;
+}
+.surah-details{
+    order: 3;
+    font-size: 20px;
+    color: rgb(202, 202, 202);
+}
+.verse{
+    font-size: 40px;
+}
+.verse-section{
+    margin: 5px 100px;
+    border-radius: 10px;
+    background-color: rgb(35, 44, 49);
+    color: white;
+    padding: 0 10px;
+}
+.verse-section section{
+    text-align: right;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.verse-number{
+    display: inline-block;
+    font-size: 15px;
+    height: 20px;
+    width: 50px;
+    border-radius: 15px;
+    background-color: rgb(81, 98, 126);
+    text-align: center;
+    margin-left: 10px;
+}
+.verse-end{
+    font-size: 30px;
+    font-weight: 100;
+}
+.translation-section{
+    background-color: rgb(59, 78, 88);
+    margin: 0 -10px;
+    border-radius: 0 0 10px 10px;
+}
+.translate-bangla{
+    font-size: 15px;
+    padding: 5px 10px 0 10px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.translate-bangla::after{
+    content:  ' বায়ান ফাউন্ডেশন';
+    font-size: 10px;
+    font-style: italic;
+}
+.translate-english{
+    font-size: 15px;
+    margin-top:0;
+    padding: 0 10px 10px 10px;
+}
+.translate-english::after{
+    content: ' Sahih International';
+    font-size: 10px;
+    font-style: italic;
+}
+.smaller{
+    font-size: smaller;
+    font-style: italic;
+    color: slategrey;
+}
+.gunnah{
+    color: orange;
+}
